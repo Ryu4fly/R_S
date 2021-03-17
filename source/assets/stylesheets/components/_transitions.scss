@@ -1,0 +1,79 @@
+.transition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .load-container {
+    .load-logo {
+      font-family: $baloo;
+      font-size: 5rem;
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
+
+.transition-right-left {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  z-index: 101;
+  background: black;
+  transition: 0.5s ease-out;
+}
+
+.transition-right-left.is-active {
+  left: 0px;
+}
+
+.transition-left-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  z-index: 101;
+  background: black;
+  transition: 0.5s ease-out;
+}
+
+.transition-left-right.is-active {
+  left: 0px;
+}
+
+.transition-top-down {
+  position: fixed;
+  top: -100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 101;
+  background: black;
+  transition: 0.5s ease-out;
+}
+
+.transition-top-down.is-active {
+  top: 0px;
+}
+
+
+.transition-down-top {
+  position: fixed;
+  top: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: 101;
+  background: black;
+  transition: 0.5s ease-out;
+}
+
+.transition-down-top.is-active {
+  top: 0px;
+}

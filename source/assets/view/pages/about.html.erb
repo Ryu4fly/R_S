@@ -1,0 +1,27 @@
+<div class="transition transition-right-left is-active">
+  <div class="load-container">
+    <h1 class="load-logo">[=R_S=]</h1>
+  </div>
+</div>
+
+<div class="page-container about-container">
+  <h1 class="page-title">/ABOUT ME</h1>
+
+  <% link_to 'assets/images/Suguro-Resume.pdf', class: "document" do%>
+    <div>
+      <span class="iconify document-icon" data-icon="carbon:document-download" data-inline="false"></span>
+      <p id="cv">cv</p>
+    </div>
+  <% end %>
+
+  <pre class="about-me">
+    about_me = {
+      ethnicity => [‘Japanese’, ’Korean’],
+      hometown => ‘Singapore’,
+      languages => [‘Ruby’, ‘JavaScript’, ‘HTML’, ’CSS’, ‘SQL’],
+      framework => [‘Ruby on Rails’, ‘Stimulus’],
+      tools => [‘Github’, ‘Heroku’, ‘Figma’]
+    }
+  </pre>
+  <%= partial 'assets/view/components/navigation' %>
+</div>

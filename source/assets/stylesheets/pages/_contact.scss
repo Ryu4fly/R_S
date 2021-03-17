@@ -1,0 +1,51 @@
+$baloo: 'Baloo Thambi 2';
+
+.contact-container {
+  background: linear-gradient(90deg, rgba(0,0,0,1) 66.7%, white 33%);
+
+  .link {
+    text-decoration: none;
+  }
+
+  .linkedIn {
+    color: white;
+  }
+
+  .gitHub {
+    color: black;
+  }
+
+  .logo-large {
+    grid-column: 9/12;
+    grid-row: 3/6;
+    justify-self: end;
+    align-self: center;
+
+    .logo {
+      font-family: $baloo;
+      font-weight: 400;
+      font-size: 6rem;
+      color: black;
+    }
+  }
+
+  .contact-me {
+    display: flex;
+    grid-column: 3/6;
+    grid-row: 3/6;
+    align-items: center;
+
+    #message {
+      margin: 1vh 0;
+    }
+  }
+
+  .contact-icons {
+    grid-column: 8/10;
+    grid-row: 7/8;
+    justify-self: center;
+    align-self: center;
+    font-size: 2em;
+  }
+}
+

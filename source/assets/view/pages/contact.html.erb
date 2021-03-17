@@ -1,0 +1,33 @@
+<div class="transition transition-down-top is-active">
+  <div class="load-container">
+    <h1 class="load-logo">[=R_S=]</h1>
+  </div>
+</div>
+
+<div class="page-container contact-container">
+  <class class="logo-large">
+    <h1 class="logo">[=R_S=]</h1>
+  </class>
+
+  <div class="contact-me">
+    <form action="https://formspree.io/f/mjvpqjkq" method="POST">
+      <input name="Email" id="email" type="email" placeholder="What's Your Email?">
+      <textarea name="message" id="message" cols="43" rows="6" placeholder="Write Your Message Here"></textarea>
+      <button type="submit">[=R_S=]</button>
+    </form>
+  </div>
+
+  <div class="contact-icons">
+    <% link_to 'https://www.linkedin.com/in/ryugisuguro/', class:'link linkedIn' do %>
+      <span class="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false"></span>
+    <% end %>
+
+    <% link_to 'https://github.com/Ryu4fly', class: 'link gitHub' do %>
+      <span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span>
+    <% end %>
+  </div>
+
+  <%= partial 'assets/view/components/navigation' %>
+
+  <p class="closing-tag tag" style="color: black;">/></p>
+</div>

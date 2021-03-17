@@ -1,0 +1,37 @@
+<% current = current_page.path %>
+
+<% if current != 'assets/view/pages/home.html' %>
+  <% if current == 'assets/view/pages/about.html' %>
+    <div class="home-nav top-bottom-nav">
+      <%= link_to 'Home', 'home.html', class: "navs", style: "color: black;" %>
+    </div>
+  <% else %>
+    <div class="home-nav top-bottom-nav">
+      <%= link_to 'Home', 'home.html', class: "navs" %>
+    </div>
+  <% end %>
+<% end %>
+
+<% if current != 'assets/view/pages/about.html' %>
+  <div class="about-nav side-nav">
+    <%= link_to 'About', 'about.html', class: "navs" %>
+  </div>
+<% end %>
+
+<% if current != 'assets/view/pages/projects.html' %>
+  <div class="projects-nav side-nav">
+    <%= link_to 'Projects', 'projects.html', class: "navs" %>
+  </div>
+<% end %>
+
+<% if current != 'assets/view/pages/contact.html' %>
+  <% if current == 'assets/view/pages/projects.html' %>
+    <div class="contact-nav top-bottom-nav">
+      <%= link_to 'Contact', 'contact.html', class: "navs", style: "color: white;" %>
+    </div>
+  <% else %>
+    <div class="contact-nav top-bottom-nav">
+      <%= link_to 'Contact', 'contact.html', class: "navs" %>
+    </div>
+  <% end %>
+<% end %>

@@ -26,9 +26,7 @@ $baloo: 'Baloo Thambi 2';
     align-self: center;
     justify-self: center;
     border-radius: 20px;
-    box-shadow: 6px 9px 10px 0 rgba(0,0,0,0.5);
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    filter: grayscale(0.9) brightness(1.4);
   }
 
   .name {
@@ -52,4 +50,3 @@ $baloo: 'Baloo Thambi 2';
     }
   }
 }
-

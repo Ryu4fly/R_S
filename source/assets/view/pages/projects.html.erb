@@ -14,7 +14,9 @@ page: "projects"
 
   <div class="projects">
     <div class="projects-card">
-      <%= image_tag "bond.png", alt: "alttext", class: "images bond"%>
+      <% link_to 'https://bondblends.herokuapp.com/' do%>
+        <%= image_tag "bond.png", alt: "alttext", class: "images bond"%>
+      <% end %>
       <div class="description">
         <h3 class="title">
           Bond Blends
@@ -25,7 +27,9 @@ page: "projects"
       </div>
     </div>
     <div class="projects-card">
-      <%= image_tag "cook.png", alt: "alttext", class: "images cook" %>
+      <% link_to 'https://bookachef.herokuapp.com/' do%>
+        <%= image_tag "cook.png", alt: "alttext", class: "images cook" %>
+      <% end %>
       <div class="description">
         <h3 class="title">
           Book A Cook
@@ -36,7 +40,9 @@ page: "projects"
       </div>
     </div>
     <div class="projects-card">
-      <%= image_tag "derby.png", alt: "alttext", class: "images derby"%>
+      <% link_to 'http://www.nicotinederby.money/' do%>
+        <%= image_tag "derby.png", alt: "alttext", class: "images derby"%>
+      <% end %>
       <div class="description">
         <h3 class="title">
           Nicotine Derby

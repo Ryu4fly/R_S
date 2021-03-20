@@ -77,3 +77,20 @@
 .transition-down-top.is-active {
   top: 0px;
 }
+
+@media (min-width: 3072px) {
+  .transition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .load-container {
+      .load-logo {
+        font-family: $baloo;
+        font-size: 15rem;
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+}

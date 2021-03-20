@@ -53,10 +53,9 @@ $baloo: 'Baloo Thambi 2';
 
 @media (min-width: 3072px) {
   .home-container {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 33.3%, white 18%);
 
     .opening-tag {
-      font-size: 20rem;
+      font-size: 15rem;
     }
 
     .logo-large {
@@ -67,8 +66,6 @@ $baloo: 'Baloo Thambi 2';
       align-self: center;
 
       .logo {
-        font-family: $baloo;
-        font-weight: 400;
         font-size: 13rem;
       }
     }
@@ -78,7 +75,7 @@ $baloo: 'Baloo Thambi 2';
       width: 35vw;
       grid-column: 5/10;
       grid-row: 3/6;
-      margin-left: 4vw;
+      margin-left: 1vw;
       align-self: center;
       justify-self: center;
       border-radius: 20px;
@@ -93,17 +90,16 @@ $baloo: 'Baloo Thambi 2';
       color: black;
       justify-self: start;
       align-self: center;
-      padding-left: 2vw;
+      padding-left: 1vw;
 
       .fullname {
         margin: 0;
         font-size: 14rem;
-        font-family: 'Bebas Neue';
       }
 
       .title {
         margin: 0;
-        font-size: 20px;
+        font-size: 3rem;
       }
     }
   }

@@ -65,3 +65,11 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+@media (min-width: 3072px) {
+
+  .navs {
+    font-size: 2rem;
+  }
+}

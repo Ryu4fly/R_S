@@ -45,3 +45,38 @@
     }
   }
 }
+
+@media (min-width: 3072px) {
+
+  .projects-container {
+
+    .page-title {
+      font-size: 6rem;
+    }
+
+    .projects {
+
+      .projects-card {
+        .images {
+          width: 28vw;
+        }
+
+        .description {
+          padding-top: 6vh;
+
+          .title {
+            font-size: 5rem;
+          }
+
+          .information {
+            font-size: 2rem;
+          }
+        }
+      }
+      .book-card {
+        margin: 0 5vw;
+      }
+    }
+  }
+
+}
